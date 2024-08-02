@@ -86,7 +86,7 @@ header{
 
 .tres{
     background-color: #69c0bc;
-    height: 300px;
+    height: 450px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -98,6 +98,7 @@ header{
     width: 60%;
     display: flex;
     justify-content: space-between;
+    /* height: 100%; */
     
 }
 .card{
@@ -129,6 +130,15 @@ footer{
     color: #F2F2F2;
     height: 250px;
     background: linear-gradient(to right, red, yellow);
+}
+.copy {
+    /* background-color: #333; */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: -webkit-sticky;
+    bottom: 0;
+    width: 100%;
 }
 .contacto{
     width: 30%;
